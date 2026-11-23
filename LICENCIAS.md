@@ -9,4 +9,4 @@
 
 ## Modelos de PUT Vision (arboles, autos, aviones, tanques, edificios, cobertura, cobertura_sentinel2, caminos)
 Todavía no se incluyen: se agregarán solo si sus autores (PUT Vision, Poznan University of Technology)
-autorizan redistribuirlos. Mientras tanto Copiloto los descarga de su sitio original.
+autorizan redistribuirlos. Mientras tanto Owen los descarga de su sitio original.
