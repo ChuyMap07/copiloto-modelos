@@ -1,0 +1,64 @@
+{
+  "catalog_version": 3,
+  "runtime": {
+    "name": "llama.cpp (llama-server)",
+    "license": "MIT",
+    "repo": "ggml-org/llama.cpp",
+    "tag": "b12242",
+    "assets": {
+      "windows-x64": "bin-win-cpu-x64\\.zip$",
+      "windows-arm64": "bin-win-cpu-arm64\\.zip$",
+      "linux-x64": "bin-ubuntu-x64\\.(tar\\.gz|zip)$",
+      "macos-arm64": "bin-macos-arm64\\.(tar\\.gz|zip)$",
+      "macos-x64": "bin-macos-x64\\.(tar\\.gz|zip)$"
+    }
+  },
+  "default_model": "copiloto-qgis-1.7b",
+  "models": [
+    {
+      "id": "copiloto-qgis-1.7b",
+      "name": "Owen 1.7B — especializado en QGIS (recomendado)",
+      "url": "https://github.com/ChuyMap07/owen-modelos/releases/download/modelo-v1/copiloto-qgis-1.7b-Q4_K_M.gguf",
+      "file": "copiloto-qgis-1.7b-Q4_K_M.gguf",
+      "sha256": "68098f9ed94bd039a86d4a9bef88d53f5c7ab63ee351a383c1a82948603c9997",
+      "size_gb": 1.11,
+      "ram_gb": 6,
+      "ctx": 8192,
+      "license": "Apache-2.0",
+      "desc": "Qwen3 1.7B entrenado con ejemplos de Owen: en la prueba pasó de 46.7% a 95% de respuestas correctas."
+    },
+    {
+      "id": "qwen3-0.6b",
+      "name": "Mínimo — Qwen3 0.6B",
+      "repo": "unsloth/Qwen3-0.6B-GGUF",
+      "file": "Qwen3-0.6B-Q8_0.gguf",
+      "size_gb": 0.64,
+      "ram_gb": 4,
+      "ctx": 4096,
+      "license": "Apache-2.0",
+      "desc": "El más pequeño. Útil para órdenes simples; se equivoca más en tareas de varios pasos."
+    },
+    {
+      "id": "qwen3-1.7b",
+      "name": "Ligero — Qwen3 1.7B (recomendado con 8 GB de RAM)",
+      "repo": "unsloth/Qwen3-1.7B-GGUF",
+      "file": "Qwen3-1.7B-Q4_K_M.gguf",
+      "size_gb": 1.1,
+      "ram_gb": 6,
+      "ctx": 8192,
+      "license": "Apache-2.0",
+      "desc": "Buen equilibrio entre tamaño y comprensión en español."
+    },
+    {
+      "id": "qwen3-4b-2507",
+      "name": "Equilibrado — Qwen3 4B Instruct",
+      "repo": "unsloth/Qwen3-4B-Instruct-2507-GGUF",
+      "file": "Qwen3-4B-Instruct-2507-Q4_K_M.gguf",
+      "size_gb": 2.5,
+      "ram_gb": 12,
+      "ctx": 8192,
+      "license": "Apache-2.0",
+      "desc": "Planifica mejor tareas de varios pasos. Con 8 GB funciona, pero lento y con QGIS cargado puede faltar memoria."
+    }
+  ]
+}
