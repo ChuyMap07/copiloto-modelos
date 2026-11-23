@@ -1,15 +1,15 @@
 # copiloto-modelos
 
-Modelos que descarga **Copiloto** (complemento de QGIS con el asistente local Owen). Se publican como
+Modelos que descarga **Owen**, el complemento de QGIS con asistente de IA local. Se publican como
 archivos de *Releases*, no dentro del repositorio:
 
-| Release (tag) | Contenido | Dirección que usa Copiloto |
+| Release (tag) | Contenido | Dirección que usa Owen |
 |---|---|---|
 | `modelos-ia` | Modelos ONNX de IA geoespacial (respaldo) | `releases/download/modelos-ia/<clave>.onnx` |
 | `modelo-v1`, `modelo-v3`… | Owen (GGUF) | `releases/download/modelo-v1/copiloto-qgis-1.7b-Q4_K_M.gguf` |
 
 ## Respaldo de modelos de IA geoespacial
-Copiloto busca cada modelo primero en la release `modelos-ia` y, si no está, en el sitio original de sus
+Owen busca cada modelo primero en la release `modelos-ia` y, si no está, en el sitio original de sus
 autores. Solo se respaldan los modelos cuya licencia permite redistribuirlos; ver `LICENCIAS.md`.
 
 | Clave | Modelo | Autores | ¿En el respaldo? |
