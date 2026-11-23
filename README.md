@@ -1,4 +1,4 @@
-# copiloto-modelos
+# owen-modelos
 
 Modelos que descarga **Owen**, el complemento de QGIS con asistente de IA local. Se publican como
 archivos de *Releases*, no dentro del repositorio:
